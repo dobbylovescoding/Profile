@@ -1,0 +1,95 @@
+.sideBar {
+  display: flex;
+  font-family: "Fira Sans", sans-serif;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(32, 32, 32);
+  width: 150px;
+  height: 100vh;
+  color: rgb(224, 224, 224);
+}
+
+/* Bottom section of sidebar */
+
+.topSection {
+  background-color: black;
+  color: rgb(224, 224, 224);
+  margin-bottom: 45px;
+}
+
+.profileAvatar {
+  overflow: hidden;
+  background-position: center;
+  width: 6.5em;
+  height: 6.5em;
+  border-radius: 50%;
+  border: 1px solid rgb(128, 251, 226);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: antiquewhite;
+  top: 40px;
+}
+
+.howie {
+  font-family: "Fira Sans", bold;
+  font-weight: 800;
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.howie_clicked {
+  font-family: "Fira Sans", bold;
+  font-weight: 800;
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.fullStack {
+  margin-top: 18px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: rgb(168, 168, 168);
+}
+
+/* Bottom section of sidebar */
+
+.navButtons {
+  padding: 13px;
+  border-radius: 1px;
+  border-top: solid rgb(71, 71, 71);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.navButtons_clicked {
+  padding: 13px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 1px;
+  border-top: solid rgb(71, 71, 71);
+  cursor: pointer;
+  color: rgb(128, 251, 226);
+}
+
+.navButtons:hover {
+  color: rgb(128, 251, 226);
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.icons {
+  border-top: solid rgb(71, 71, 71);
+  padding-top: 40px;
+}
+.icon {
+  color: rgb(224, 224, 224);
+  padding: 5px;
+  justify-content: space-evenly;
+}
+
+.icon:hover {
+  color: rgb(128, 251, 226);
+}
