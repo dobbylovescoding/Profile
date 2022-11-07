@@ -69,9 +69,10 @@
   font-weight: 600;
   font-size: 18px;
   border-radius: 1px;
-  border-top: solid rgb(71, 71, 71);
+  border: solid rgb(128, 251, 226);
   cursor: pointer;
   color: rgb(128, 251, 226);
+  transition: 0.7s;
 }
 
 .navButtons:hover {
