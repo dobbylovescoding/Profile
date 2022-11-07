@@ -1,6 +1,6 @@
 import styles from "./SideBar.module.css";
 import { useState } from "react";
-import profileAvatar from "../images/profileAvatar.jpeg";
+import smile from "../images/smile.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -44,11 +44,7 @@ export default function SideBar({ setDisplayedContent }) {
   return (
     <div className={styles.sideBar}>
       <div className={styles.topSection}>
-        <img
-          src={profileAvatar}
-          alt="profile"
-          className={styles.profileAvatar}
-        ></img>
+        <img src={smile} alt="profile" className={styles.profileAvatar}></img>
         <div
           className={
             whatButtonClicked === "Howie" ? styles.howie_clicked : styles.howie
