@@ -8,7 +8,7 @@ export default function Contact() {
         <p className={styles.p}>
           I am interested in starting a position as a junior front end developer
           but I am also open to any oppurtunity that will allow me to develop my
-          development skills further.
+          programming skills further.
         </p>
         <form className={styles.form}>
           <input type="text" className={styles.name} placeholder="Name"></input>
