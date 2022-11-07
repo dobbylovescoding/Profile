@@ -26,7 +26,7 @@ export default function SideBar({ setDisplayedContent }) {
       case "Coding":
         setDisplayedContent(<Coding />);
         break;
-      case "MakeProject":
+      case "Work":
         setDisplayedContent(<Work />);
         break;
       case "Contact":
