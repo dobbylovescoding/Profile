@@ -6,7 +6,7 @@ export default function Howie() {
         <section className={styles.Howie}>
           Kia Ora! <br /> Howie's the name,
           <br />
-          for fucks sake is the game!
+          Web Development's the game!
         </section>
         <button className={styles.button}>Let's get in touch!</button>
       </div>
