@@ -27,7 +27,7 @@ export default function Contact() {
           <textarea
             type="text"
             rows="10"
-            cols="49"
+            cols="20"
             placeholder="Message"
             className={styles.message}
           ></textarea>
