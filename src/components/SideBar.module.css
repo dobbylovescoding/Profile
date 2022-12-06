@@ -4,7 +4,7 @@
   flex-direction: column;
   text-align: center;
   background-color: rgb(32, 32, 32);
-  width: 150px;
+  width: 8vw;
   height: 100vh;
   color: rgb(224, 224, 224);
 }
@@ -20,8 +20,8 @@
 .profileAvatar {
   overflow: hidden;
   background-position: center;
-  width: 6em;
-  height: 6em;
+  width: 80%;
+  height: auto;
   border-radius: 50%;
   border: 1px solid rgb(128, 251, 226);
   margin-top: 20px;

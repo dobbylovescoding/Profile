@@ -1,4 +1,5 @@
 import styles from "./About.module.css";
+import ProfilePic from "../images/ProfilePhoto.png";
 
 export default function About() {
   return (
@@ -24,11 +25,14 @@ export default function About() {
           The advance programming course I am about to begin is only a few
           nights a week and always after 5pm. I am very interested to start my
           tech career now along with completing this course as it will allow me
-          to be in the best positiBalooon with the most knowledge available to
-          me.
+          to be in the best position with the most knowledge available to me.
         </p>
       </div>
-      <div className={styles.cont2}></div>
+      <div className={styles.cont2}>
+        <div className={styles.imgCont}>
+          <img className={styles.profilePic} src={ProfilePic}></img>
+        </div>
+      </div>
     </div>
   );
 }

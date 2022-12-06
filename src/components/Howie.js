@@ -1,4 +1,6 @@
 import styles from "./Howie.module.css";
+import Contact from "../components/Contact";
+
 export default function Howie() {
   return (
     <div className={styles.container}>
