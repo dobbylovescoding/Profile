@@ -77,7 +77,7 @@ export default function SideBar({ setDisplayedContent }) {
           id="Coding"
           onClick={handleContentClick}
         >
-          Coding
+          Skill Set
         </div>
         <div
           className={

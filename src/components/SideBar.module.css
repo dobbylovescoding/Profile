@@ -1,10 +1,11 @@
 .sideBar {
   display: flex;
+  position: fixed;
   font-family: "Fira Sans", sans-serif;
   flex-direction: column;
   text-align: center;
   background-color: rgb(32, 32, 32);
-  width: 8vw;
+  width: 150px;
   height: 100vh;
   color: rgb(224, 224, 224);
 }

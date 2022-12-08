@@ -4,6 +4,7 @@
   background-image: url("../images/backgroundHexTop.png");
   background-size: cover;
   background-position: center;
+  margin-left: 150px;
 }
 
 .cont1 {
@@ -30,23 +31,24 @@
   color: rgb(128, 251, 226);
   margin-left: 15vh;
   margin-top: 10vh;
+  margin-bottom: 5vh;
 }
 
 .p {
   margin-left: 15vh;
-  margin-bottom: 40px;
+  margin-bottom: 4vh;
   margin-right: 15vh;
 }
 
 .p1 {
   margin-left: 15vh;
-  margin-bottom: 40px;
+  margin-bottom: 4vh;
   margin-right: 15vh;
 }
 
 .p2 {
   margin-left: 15vh;
-  margin-bottom: 40px;
+  margin-bottom: 4vh;
   margin-right: 15vh;
 }
 

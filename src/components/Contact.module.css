@@ -1,6 +1,7 @@
 .cont {
   display: flex;
   flex-direction: row;
+  margin-left: 150px;
 }
 
 .cont1 {
@@ -36,7 +37,7 @@
 .name {
   padding: 10px;
   width: 43%;
-  margin-right: 11px;
+  margin-right: 13px;
   margin-bottom: 10px;
   background-color: rgb(109, 109, 109);
   border: none;
@@ -47,6 +48,7 @@
 .email {
   padding: 10px;
   width: 43%;
+  margin-bottom: 10px;
   background-color: rgb(109, 109, 109);
   border: none;
   color: azure;
@@ -56,7 +58,7 @@
 .subject {
   padding: 10px;
   margin-bottom: 10px;
-  width: 91%;
+  width: 90%;
   background-color: rgb(109, 109, 109);
   border: none;
   color: azure;
@@ -70,7 +72,7 @@
   color: azure;
   font-family: "Fira Sans", sans-serif;
   font-size: 16px;
-  width: 91%;
+  width: 90%;
 }
 ::placeholder {
   font-size: 18px;
