@@ -52,7 +52,7 @@ export default function SideBar({ setDisplayedContent }) {
           id="Howie"
           onClick={handleContentClick}
         >
-          Howie
+          Conor
         </div>
         <div className={styles.fullStack}>Full Stack Developer</div>
       </div>
