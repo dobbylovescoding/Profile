@@ -10,7 +10,6 @@ function App() {
     <div>
       <div className={styles.sideBar}>
         <SideBar setDisplayedContent={setDisplayedContent} />
-
         <div className={styles.displayedContent}>{displayedContent}</div>
       </div>
     </div>

@@ -19,9 +19,9 @@
 .h2 {
   font-weight: 800;
   font-size: 70px;
-  color: rgb(128, 251, 226);
+  color: #b1e5f2;
   margin-left: 30px;
-  margin-top: 70px;
+  margin-top: 15%;
 }
 
 .p {
@@ -36,8 +36,8 @@
 
 .name {
   padding: 10px;
-  width: 43%;
-  margin-right: 13px;
+  width: 44%;
+  margin-right: 15px;
   margin-bottom: 10px;
   background-color: rgb(109, 109, 109);
   border: none;
@@ -47,7 +47,7 @@
 }
 .email {
   padding: 10px;
-  width: 43%;
+  width: 44%;
   margin-bottom: 10px;
   background-color: rgb(109, 109, 109);
   border: none;
@@ -82,8 +82,8 @@
 .submit {
   font-size: 20px;
   background-color: transparent;
-  color: rgb(128, 251, 226);
-  border: 1px solid rgb(128, 251, 226);
+  color: #b1e5f2;
+  border: 1px solid #b1e5f2;
   padding: 15px 60px 15px 60px;
   cursor: pointer;
   margin-left: 0px;
@@ -92,7 +92,7 @@
 }
 
 .submit:hover {
-  background-color: rgb(128, 251, 226);
+  background-color: #b1e5f2;
   transition: 1s ease-in-out;
   color: black;
 }

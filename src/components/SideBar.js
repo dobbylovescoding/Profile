@@ -6,7 +6,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import Howie from "../components/Howie";
 import About from "../components/About";
-import Coding from "../components/Coding";
+import SkillSet from "../components/SkillSet";
 import Work from "../components/Work";
 import Contact from "../components/Contact";
 
@@ -23,8 +23,8 @@ export default function SideBar({ setDisplayedContent }) {
       case "About":
         setDisplayedContent(<About />);
         break;
-      case "Coding":
-        setDisplayedContent(<Coding />);
+      case "SkillSet":
+        setDisplayedContent(<SkillSet />);
         break;
       case "Work":
         setDisplayedContent(<Work />);
@@ -35,11 +35,6 @@ export default function SideBar({ setDisplayedContent }) {
         break;
     }
   }
-
-  // function handleButtonToggle(e) {
-  //   setWhatButtonClicked(e.currentTarget.id);
-  //   console.log(e.currentTarget.id);
-  // }
 
   return (
     <div className={styles.sideBar}>
@@ -70,11 +65,11 @@ export default function SideBar({ setDisplayedContent }) {
         </div>
         <div
           className={
-            whatButtonClicked === "Coding"
+            whatButtonClicked === "SkillSet"
               ? styles.navButtons_clicked
               : styles.navButtons
           }
-          id="Coding"
+          id="SkillSet"
           onClick={handleContentClick}
         >
           Skill Set

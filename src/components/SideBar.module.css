@@ -15,7 +15,7 @@
 .topSection {
   background-color: black;
   color: rgb(224, 224, 224);
-  margin-bottom: 45px;
+  margin-bottom: 90px;
 }
 
 .profileAvatar {
@@ -24,7 +24,7 @@
   width: 80%;
   height: auto;
   border-radius: 50%;
-  border: 1px solid rgb(128, 251, 226);
+  border: 1px solid #b1e5f2;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -70,14 +70,14 @@
   font-weight: 600;
   font-size: 18px;
   border-radius: 1px;
-  border: solid rgb(128, 251, 226);
+  border: solid #b1e5f2;
   cursor: pointer;
-  color: rgb(128, 251, 226);
-  transition: 0.7s;
+  color: #b1e5f2;
+  transition: 0s;
 }
 
 .navButtons:hover {
-  color: rgb(128, 251, 226);
+  color: #b1e5f2;
   font-size: 18px;
   transition: 0.5s;
 }
@@ -93,5 +93,5 @@
 }
 
 .icon:hover {
-  color: rgb(128, 251, 226);
+  color: #b1e5f2;
 }
