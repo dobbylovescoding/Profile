@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: row;
   margin-left: 150px;
+  background-image: url("../images/backgroundHexTop.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .cont1 {
