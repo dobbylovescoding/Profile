@@ -32,13 +32,14 @@
 
 .form {
   margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
 }
 
 .name {
   padding: 10px;
-  width: 44%;
-  margin-right: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   background-color: rgb(109, 109, 109);
   border: none;
   color: azure;
@@ -47,8 +48,7 @@
 }
 .email {
   padding: 10px;
-  width: 44%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   background-color: rgb(109, 109, 109);
   border: none;
   color: azure;
@@ -57,8 +57,7 @@
 }
 .subject {
   padding: 10px;
-  margin-bottom: 10px;
-  width: 90%;
+  margin-bottom: 5px;
   background-color: rgb(109, 109, 109);
   border: none;
   color: azure;
@@ -72,7 +71,6 @@
   color: azure;
   font-family: "Fira Sans", sans-serif;
   font-size: 16px;
-  width: 90%;
 }
 ::placeholder {
   font-size: 18px;
@@ -80,13 +78,13 @@
 }
 
 .submit {
+  width: 200px;
   font-size: 20px;
   background-color: transparent;
   color: #b1e5f2;
   border: 1px solid #b1e5f2;
   padding: 15px 60px 15px 60px;
   cursor: pointer;
-  margin-left: 0px;
   margin-top: 15px;
   transition: 1s ease-in-out;
 }
