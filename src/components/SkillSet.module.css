@@ -137,3 +137,15 @@
     right: 350%;
   }
 }
+
+@media screen and (max-width: 1600px) {
+  .h2 {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 1296px) {
+  .cont {
+    margin-left: 0px;
+  }
+}

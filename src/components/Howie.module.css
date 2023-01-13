@@ -262,3 +262,13 @@
   transition: 1s ease-in-out;
   color: black;
 }
+
+@media screen and (max-width: 1296px) {
+  .cont {
+    margin-left: 0px;
+  }
+
+  .clickMe {
+    display: none;
+  }
+}

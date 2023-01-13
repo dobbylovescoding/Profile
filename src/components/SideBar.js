@@ -40,6 +40,7 @@ export default function SideBar({ setDisplayedContent }) {
     <div className={styles.sideBar}>
       <div className={styles.topSection}>
         <img src={smile} alt="profile" className={styles.profileAvatar}></img>
+
         <div
           className={
             whatButtonClicked === "Howie" ? styles.howie_clicked : styles.howie
@@ -51,7 +52,7 @@ export default function SideBar({ setDisplayedContent }) {
         </div>
         <div className={styles.fullStack}>Full Stack Developer</div>
       </div>
-      <div>
+      <div className={styles.hamburger}>
         <div
           className={
             whatButtonClicked === "About"
@@ -97,7 +98,7 @@ export default function SideBar({ setDisplayedContent }) {
           Contact
         </div>
       </div>
-      <div className={styles.icons}>
+      {/* <div className={styles.icons}>
         <a
           href="https://www.linkedin.com/in/conor-howard-98528297/"
           className={styles.icon}
@@ -113,7 +114,7 @@ export default function SideBar({ setDisplayedContent }) {
         <a href="https://github.com/dobbylovescoding" className={styles.icon}>
           <GitHubIcon />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }

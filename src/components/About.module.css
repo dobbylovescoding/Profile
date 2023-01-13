@@ -61,3 +61,53 @@
     rgb(44, 44, 44) 30px -30px 0px -3px, #b1e5f2 30px -30px,
     rgb(44, 44, 44) 40px -40px 0px -3px, #b1e5f2 40px -40px;
 }
+
+@media screen and (max-width: 1600px) {
+  .h2 {
+    font-size: 56px;
+  }
+
+  .h2 {
+    margin-left: 7vh;
+
+    margin-right: 7vh;
+  }
+
+  .p {
+    margin-left: 7vh;
+    margin-bottom: 4vh;
+    margin-right: 7vh;
+  }
+
+  .p1 {
+    margin-left: 7vh;
+    margin-bottom: 4vh;
+    margin-right: 7vh;
+  }
+
+  .p2 {
+    margin-left: 7vh;
+    margin-bottom: 4vh;
+    margin-right: 7vh;
+  }
+}
+
+@media screen and (max-width: 1296px) {
+  .cont {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .cont {
+    flex-direction: column;
+    background-image: none;
+  }
+
+  .cont1 {
+    width: 100%;
+  }
+
+  .cont2 {
+    width: 100%;
+  }
+}
