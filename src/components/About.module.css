@@ -90,11 +90,22 @@
     margin-bottom: 4vh;
     margin-right: 7vh;
   }
+  .profilePic {
+    margin-left: 10vh;
+    width: 400px;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 1296px) {
   .cont {
     margin-left: 0px;
+    margin-top: 50px;
+  }
+  .profilePic {
+    margin-left: 8vh;
+    width: 380px;
+    height: auto;
   }
 }
 @media screen and (max-width: 900px) {
@@ -105,9 +116,18 @@
 
   .cont1 {
     width: 100%;
+    height: 100%;
   }
 
   .cont2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+  }
+  .profilePic {
+    width: 425px;
+    height: auto;
+    margin: 0;
   }
 }

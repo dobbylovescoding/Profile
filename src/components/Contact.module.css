@@ -87,6 +87,7 @@
   cursor: pointer;
   margin-top: 15px;
   transition: 1s ease-in-out;
+  margin-bottom: 15px;
 }
 
 .submit:hover {
@@ -109,5 +110,24 @@
 @media screen and (max-width: 1296px) {
   .cont {
     margin-left: 0px;
+  }
+  .cont1 {
+    width: 50vw;
+  }
+  .cont2 {
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  .cont {
+    flex-direction: column;
+    background-image: none;
+  }
+  .cont1 {
+    width: 100%;
+  }
+
+  .cont2 {
+    width: 100%;
   }
 }

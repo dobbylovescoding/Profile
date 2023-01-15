@@ -99,9 +99,11 @@
 @media screen and (max-width: 1296px) {
   .sideBar {
     flex-direction: row;
-    height: 100px;
     width: 100vw;
     background-color: transparent;
+    height: 50px;
+    position: absolute;
+    margin-bottom: 20px;
   }
   .topSection {
     display: none;
