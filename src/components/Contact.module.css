@@ -16,6 +16,12 @@
   background-position: center;
 }
 
+.div2 {
+  display: none;
+  width: 46vw;
+  flex-direction: column;
+}
+
 .h2 {
   font-weight: 800;
   font-size: 70px;
@@ -25,6 +31,11 @@
 }
 
 .p {
+  margin-left: 30px;
+  margin-bottom: 55px;
+  margin-right: 40px;
+}
+.p1 {
   margin-left: 30px;
   margin-bottom: 55px;
   margin-right: 40px;

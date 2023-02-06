@@ -203,3 +203,12 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .bottomCont {
+    flex-direction: column;
+  }
+  .innerCont2 {
+    margin-bottom: 30px;
+  }
+}

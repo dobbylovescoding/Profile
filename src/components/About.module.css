@@ -100,7 +100,6 @@
 @media screen and (max-width: 1296px) {
   .cont {
     margin-left: 0px;
-    margin-top: 50px;
   }
   .profilePic {
     margin-left: 8vh;
@@ -129,5 +128,12 @@
     width: 425px;
     height: auto;
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .profilePic {
+    width: 300px;
+    height: auto;
   }
 }

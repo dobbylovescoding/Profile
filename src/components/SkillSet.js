@@ -13,9 +13,8 @@ export default function SkillSet() {
           Mission Ready HQ in Auckland, New Zealand. More recently I have taken
           an interest in animations and that is an area I am now starting to
           focus on along with continuously developing my knowledge of ReactJS,
-          NodeJS, JavaScript (ES6), HTML5, CSS and MySQL. I have designed and
-          built this React application using Visual Studio Code as a way of
-          demonstrating my skills in the above-mentioned areas.
+          NodeJS, JavaScript (ES6), HTML5, CSS and MySQL. This website being a
+          way of demonstrating my skills in the above-mentioned areas.
         </p>
         <p className={styles.p1}>
           I have great written and verbal communication skills along with the

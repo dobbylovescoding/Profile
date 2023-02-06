@@ -6,7 +6,7 @@ export default function Howie() {
   return (
     <div className={styles.cont}>
       <div className={styles.cont1}>
-        <img className={styles.clickMe} src={clickMe}></img>
+        {/* <img className={styles.clickMe} src={clickMe}></img> */}
       </div>
       <div className={styles.Howie}>
         <div className={styles.line1}>

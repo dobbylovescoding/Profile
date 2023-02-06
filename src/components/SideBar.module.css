@@ -105,8 +105,30 @@
     position: absolute;
     margin-bottom: 20px;
   }
-  .topSection {
+  .profileAvatar {
     display: none;
+  }
+  .fullStack {
+    display: none;
+  }
+
+  .howie {
+    font-size: 18px;
+    padding: 13px;
+    border-radius: 1px;
+    border-top: solid rgb(71, 71, 71);
+    cursor: pointer;
+    transition: 0s;
+  }
+
+  .howie_clicked {
+    padding: 13px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    color: #b1e5f2;
+    transition: 0s;
   }
 
   .hamburger {

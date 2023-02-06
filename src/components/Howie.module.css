@@ -263,6 +263,12 @@
   color: black;
 }
 
+@media screen and (max-width: 1600px) {
+  .Howie {
+    font-size: 70px;
+  }
+}
+
 @media screen and (max-width: 1296px) {
   .cont {
     margin-left: 0px;
@@ -270,5 +276,42 @@
 
   .clickMe {
     display: none;
+  }
+  .Howie {
+    font-size: 70px;
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .Howie {
+    font-size: 60px;
+    margin-top: 150px;
+  }
+  .cont1 {
+    width: 75px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .Howie {
+    font-size: 50px;
+    margin-top: 150px;
+  }
+  .cont1 {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Howie {
+    font-size: 40px;
+    margin-top: 150px;
+  }
+  .cont1 {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Howie {
+    font-size: 30px;
   }
 }
