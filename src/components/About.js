@@ -35,7 +35,7 @@ export default function About() {
       </div>
       <div className={styles.cont2}>
         <div className={styles.imgCont}>
-          <img className={styles.profilePic} src={ProfilePic}></img>
+          <img className={styles.profilePic} src={ProfilePic} alt={ProfilePic}></img>
         </div>
       </div>
     </div>
