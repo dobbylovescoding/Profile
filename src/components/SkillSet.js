@@ -39,10 +39,10 @@ export default function SkillSet() {
         </div>
         <div className={styles.bottomCont}>
           <div className={styles.innerCont2}>
-            <img className={styles.reactLogo} src={logo512}></img>
+            <img className={styles.reactLogo} src={logo512} alt={logo512}></img>
           </div>
           <div className={styles.innerCont3}>
-            <img className={styles.tripleLogo} src={tripleLogo}></img>
+            <img className={styles.tripleLogo} src={tripleLogo} alt={tripleLogo}></img>
           </div>
         </div>
       </div>
